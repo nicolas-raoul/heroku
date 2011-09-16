@@ -211,8 +211,8 @@ class Heroku::Auth
     end
 
     def set_credentials_permissions
-      FileUtils.chmod 0700, File.dirname(credentials_file)
-      FileUtils.chmod 0600, credentials_file
+      #FileUtils.chmod 0700, File.dirname(credentials_file)
+      #FileUtils.chmod 0600, credentials_file
     end
 
     def delete_credentials
